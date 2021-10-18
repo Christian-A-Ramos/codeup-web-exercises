@@ -61,12 +61,6 @@ function analyzeColorSwitch(color) {
             break;
     }
 }
-
-console.log("~~~~~")
-console.log(analyzeColorSwitch("red"))
-console.log(analyzeColorSwitch("blue"))
-console.log(analyzeColorSwitch("cyan"))
-)
 /**
  * TODO:
  * Prompt the user for a color when the page loads, and pass the input from the
