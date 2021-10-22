@@ -24,4 +24,13 @@
     //         console.log("Fizz");
     //     } else if (i % 5 === 0)
     //
+
+    function moveToEnd(arr) {
+        var removedElement = arr.shift();
+        arr.push(removedElement);
+        return arr;
+    }
+
+    console.log(moveToEnd([1, 2, 3, 4]));
+    console.log(moveToEnd(['roll', 'rock', 'rock']))
 })()
