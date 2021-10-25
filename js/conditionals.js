@@ -176,7 +176,7 @@ function playNumberGame(num) {
           alert("Okay then ");
       }
 
-
+c
 }
 
 

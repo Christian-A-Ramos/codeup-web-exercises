@@ -25,12 +25,30 @@
     //     } else if (i % 5 === 0)
     //
 
-    function moveToEnd(arr) {
-        var removedElement = arr.shift();
-        arr.push(removedElement);
-        return arr;
-    }
+    // function moveToEnd(arr) {
+    //     var removedElement = arr.shift();
+    //     arr.push(removedElement);
+    //     return arr;
+    // }
+    //
+    // console.log(moveToEnd([1, 2, 3, 4]));
+    // console.log(moveToEnd(['roll', 'rock', 'rock']))
 
-    console.log(moveToEnd([1, 2, 3, 4]));
-    console.log(moveToEnd(['roll', 'rock', 'rock']))
+var mewtwo = {
+    name: 'Mewtwo',
+    description: 'Short purple alien looking thing with a long tail'
+    height: {
+        feet:4,
+        inches:11
+    },
+    type: ['Psychic']
+}
+
+
+
+
+
+
+
+
 })()
